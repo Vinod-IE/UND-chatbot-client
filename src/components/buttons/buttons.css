@@ -1,0 +1,319 @@
+.btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: flex;
+    min-width: auto;
+    align-items: center;
+    margin: 0px;
+    font-size: 1rem;
+    line-height: 32px;
+    padding: 0rem .60rem;
+    text-align: center;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-hover:hover,
+.btn-hover:visited,
+.btn-hover:focus,
+.btn-hover:active,
+.btn-hover.active {
+    background-color: var(--rb-btn-hover-bg) !important;
+    color: var(--rb-btn-hover-textcolor) !important;
+}
+
+.btn-hover1:hover,
+.btn-hover1:visited,
+.btn-hover1:focus,
+.btn-hover1:active,
+.btn-hover1.active {
+    background-color: #fff !important;
+    color: var(--rb-titletext15) !important;
+}
+
+.btn-hover.active {
+    pointer-events: none;
+
+}
+
+.btn-hover:hover [class^="icon-"],
+.btn-hover:visited[class^="icon-"],
+.btn-hover:focus [class^="icon-"],
+.btn-hover:active [class^="icon-"],
+.btn-hover.active [class^="icon-"] {
+
+    color:  var(--rb-btn-hover-textcolor);
+}
+
+.btn.btn-xl {
+    line-height: 38px;
+    font-size: 1.2rem;
+}
+
+.btn.btn-lg {
+    line-height: 36px;
+    font-size: 1rem;
+}
+
+.btn.btn-sm {
+    line-height: 26px;
+    font-size: 0.75rem;
+}
+
+.btn.btn-xs {
+    line-height: 22px;
+    font-size: 0.65rem;
+}
+
+.btn.btn-xxs {
+    line-height: 18px;
+    font-size: 0.65rem;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--rb-bgcolor-primary);
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: var(--rb-bgcolor-secondary)
+}
+
+.btn-bgcolor1,
+.btn-bgcolor1:hover,
+.btn-bgcolor1:focus,
+.btn-bgcolor1:active {
+    background-color: var(--rb-bgcolor-1)
+}
+
+.btn-bgcolor2,
+.btn-bgcolor2:hover,
+.btn-bgcolor2:focus,
+.btn-bgcolor2:active {
+    background-color: var(--rb-bgcolor-2)
+}
+
+.btn-bgcolor3,
+.btn-bgcolor3:hover,
+.btn-bgcolor3:focus,
+.btn-bgcolor3:active {
+    background-color: var(--rb-bgcolor-3)
+}
+
+.btn-bgcolor4,
+.btn-bgcolor4:hover,
+.btn-bgcolor4:focus,
+.btn-bgcolor4:active {
+    background-color: var(--rb-bgcolor-4)
+}
+
+.btn-bgcolor5,
+.btn-bgcolor5:hover,
+.btn-bgcolor5:focus,
+.btn-bgcolor5:active {
+    background-color: var(--rb-bgcolor-5)
+}
+
+.btn-bgcolor6,
+.btn-bgcolor6:hover,
+.btn-bgcolor6:focus,
+.btn-bgcolor6:active {
+    background-color: var(--rb-bgcolor-6)
+}
+
+.btn-bgcolor7,
+.btn-bgcolor7:hover,
+.btn-bgcolor7:focus,
+.btn-bgcolor7:active {
+    background-color: var(--rb-bgcolor-7)
+}
+
+.btn-bgcolor8,
+.btn-bgcolor8:hover,
+.btn-bgcolor8:focus,
+.btn-bgcolor8:active {
+    background-color: var(--rb-bgcolor-8)
+}
+
+.btn-bgcolor9,
+.btn-bgcolor9:hover,
+.btn-bgcolor9:focus,
+.btn-bgcolor9:active {
+    background-color: var(--rb-bgcolor-9)
+}
+
+.btn-bgcolor10,
+.btn-bgcolor10:hover,
+.btn-bgcolor10:focus,
+.btn-bgcolor10:active {
+    background-color: var(--rb-bgcolor-10)
+}
+
+.btn-bgcolor11,
+.btn-bgcolor11:hover,
+.btn-bgcolor11:focus,
+.btn-bgcolor11:active {
+    background-color: var(--rb-bgcolor-11)
+}
+
+.btn-bgcolor12,
+.btn-bgcolor12:hover,
+.btn-bgcolor12:focus,
+.btn-bgcolor12:active {
+    background-color: var(--rb-bgcolor-12)
+}
+.btn-bgcolor13,
+.btn-bgcolor13:hover,
+.btn-bgcolor13:focus,
+.btn-bgcolor13:active {
+    background-color: var(--rb-bgcolor-13)
+}
+.btn-bgcolor21,
+.btn-bgcolor21:hover,
+.btn-bgcolor21:focus,
+.btn-bgcolor21:active {
+    background-color: var(--rb-bgcolor-21)
+}
+.btn-border,
+.btn-border:hover,
+.btn-border:focus,
+.btn-border:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color);
+}
+
+.btn-border1,
+.btn-border1:hover,
+.btn-border1:focus,
+.btn-border1:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color1);
+}
+
+.btn-border2,
+.btn-border2:hover,
+.btn-border2:focus,
+.btn-border2:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color2);
+}
+
+.btn-border3,
+.btn-border3:hover,
+.btn-border3:focus,
+.btn-border3:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color3);
+}
+
+.btn-border4,
+.btn-border4:hover,
+.btn-border4:focus,
+.btn-border4:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color4);
+}
+
+.btn-border5,
+.btn-border5:hover,
+.btn-border5:focus,
+.btn-border5:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color5);
+}
+
+.btn-border6,
+.btn-border6:hover,
+.btn-border6:focus,
+.btn-border6:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color6);
+}
+
+.btn-border7,
+.btn-border7:hover,
+.btn-border7:focus,
+.btn-border7:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color7);
+}
+
+.btn-border8,
+.btn-border8:hover,
+.btn-border8:focus,
+.btn-border8:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color8);
+}
+
+.btn-border9,
+.btn-border9:hover,
+.btn-border9:focus,
+.btn-border9:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color9);
+}
+
+.btn-border10,
+.btn-border10:hover,
+.btn-border10:focus,
+.btn-border10:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color10);
+}
+
+.btn-border11,
+.btn-border11:hover,
+.btn-border11:focus,
+.btn-border11:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color11);
+}
+
+.btn-border12,
+.btn-border12:hover,
+.btn-border12:focus,
+.btn-border12:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color12);
+}
+
+.btn-border13,
+.btn-border13:hover,
+.btn-border13:focus,
+.btn-border13:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color13);
+}
+
+.btn-border14,
+.btn-border14:hover,
+.btn-border14:focus,
+.btn-border14:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style) var(--rb-btn-border-color14);
+}
+
+.btn-border15,
+.btn-border15:hover,
+.btn-border15:focus,
+.btn-border15:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style);
+    border-color: rgb(159, 159, 100);
+}
+.btn-dashed-border,
+.btn-dashed-border:focus,
+.btn-dashed-border:active {
+    border: var(--rb-btn-border-width) var(--rb-btn-border-style-dashed) var(--rb-btn-border-color1) !important;
+}
+.btn-dashed-border2,
+.btn-dashed-border2:focus,
+.btn-dashed-border2:active {
+    border: var(--rb-btn-border-width-2) var(--rb-btn-border-style-dashed) var(--rb-btn-border-color1) !important;
+}
+.btn-dotted-border2,
+.btn-dashed-border2:focus,
+.btn-dashed-border2:active {
+    border: var(--rb-btn-border-width-2) var(--rb-btn-border-style-dotted) var(--rb-btn-border-color1) !important;
+}
+.btn-hover-color-primary:hover{color: var(--rb-primary-color) !important;background-color: #fff;}

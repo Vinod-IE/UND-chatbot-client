@@ -1,0 +1,27 @@
+.quickLinks ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.quickLinks li {
+    padding: 4px 2px;
+    list-style-type: none;
+}
+.quickLinks li a {
+    font-size: 13px;
+    font-family: 'sourcesansproregular', sans-serif;
+    color: var(--rb-primary-color);
+}
+.quickLinks li::before {
+    border: solid var(--rb-primary-color);
+    border-width: 0 2px 2px 0;
+    content: "";
+    margin: 0px 8px 2px 0px;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.quickLinks.no-icons li::before {
+display: none;
+}

@@ -1,0 +1,5 @@
+.feedback-body {
+    max-height: calc(100vh - var(--rb-headerheight) - var(--rb-footerheight) - var(--pageheader-height) - 170px);
+    overflow: auto;
+    padding: 5px;
+}

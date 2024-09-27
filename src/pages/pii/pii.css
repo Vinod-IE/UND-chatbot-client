@@ -1,0 +1,26 @@
+.scanlist tr th:first-child {width:30px;}
+.scanlist tr th:last-child {width:130px;}
+
+.audittime{padding-right: 8px;min-width: 80px; text-align: right;}
+.auditlogs .progress.v-steps li:after {left: 90px;}
+
+.configurationlists{display: none;}
+.configurationlists.active{display: flex; width: 100%;}
+
+.severity.High {color: #e3312e}
+.severity.Medium {color: #a7a602}
+.severity.Low {color: #2b87e0}
+.pii-category-loader {
+    margin-left: 50%;
+    position: relative
+}
+.predefinedcat .piiaccordionlistheader .editbtn{display: none !important;}
+.piiaccordionlistheader{cursor: pointer;min-height: 32px;}
+.piiaccordionlist:nth-child(odd) .piiaccordionlistheader{
+    background: var(--rb-primary-light-color);
+  }
+  .piiaccordionlist:nth-child(even) .piiaccordionlistheader{
+    background: var(--rb-bgcolor-15);
+  }
+  .piiaccordionlistheader .editbtn{display: none;}
+  .piiaccordionlistheader:hover .editbtn{display: flex;}

@@ -1,0 +1,77 @@
+/**********************************************/
+/* Calendar tab item*/
+/**********************************************/   
+.divcalendarcontainer ul{margin: 10px 0px 0px 0px ; width: 100%;}
+.divcalendarcontainer ul, .divcalendarcontainer ul li {list-style-type: none;}
+.divcalendarcontainer ul li { margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #ececec; position: relative;} 
+.divcalendarcontainer ul li .diveventitem { width: 100%; position: relative; border-left: 5px solid transparent; padding: 5px 5px 5px 10px; }
+.divcalendarcontainer ul li:nth-of-type(odd) .diveventitem {border-left-color: #6d7d9d;}
+.divcalendarcontainer ul li:nth-of-type(even) .diveventitem {border-left-color: #4a9bd6;}
+.divcalendarcontainer ul li:last-child {border-bottom: none; padding-bottom: 0;}
+.divcalendarcontainer ul li .timedate {display: flex;}
+.divcalendarcontainer ul li .timedate p { font-size: 13px; margin: 0px; padding: 0px;}
+.divcalendarcontainer ul li .timedate p:first-child {font-family: 'sourcesansprosemibold',sans-serif; color: #444;}
+.divcalendarcontainer ul li .timedate p:last-child {margin-left: auto; font-family: 'sourcesansproregular', sans-serif; color: #333; font-size: 14px;}
+.divcalendarcontainer ul li .anchoreventtitle { font-family: 'sourcesansproregular',sans-serif; font-size: 13px; color: #0050b9; text-decoration: none;}
+.divcalendarcontainer ul li .location { font-family: 'sourcesansproregular', sans-serif; font-size: 13px; color: #656565; margin: 0px; padding: 0px;}
+.divcalendarcontainer ul li:hover .diveventitem {background-color: #ebf3ff;}
+.divcalendarcontainer .divcalendarpopup { width:535px; min-height: 130px; position:absolute; border-radius: 5px; box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, .12); box-sizing: border-box; z-index:1; padding:15px;
+    left:-webkit-calc(100% - -10px); left:-moz-calc(100% - -10px); left:calc(100% - -10px); bottom: 0px; display: none; background-color: rgb(237,237,237);
+    background-image: -moz-linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 94%);
+    background-image: -webkit-linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 94%);
+    background-image: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 94%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed",endColorstr="#ffffff",GradientType=1);}
+.divcalendarcontainer ul li:hover > .divcalendarpopup{ display:block !important;}
+.divcalendarpopup:before {content: ""; position: absolute; width: 0; height: 0; bottom: 23px; left: 0; box-sizing: border-box; border: 0.8em solid #ededed; border-color: transparent transparent #eee #ededed;
+    transform-origin: 0 0; box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, .01);  -ms-transform: rotate(43deg); -webkit-transform: rotate(43deg); transform: rotate(43deg);}
+.divcalendarcontainer .divcalendarpopup h2 {font-family: 'sourcesansprosemibold', sans-serif; font-size:13px; color:#008dee;}
+.divcalendarcontainer .divcalendarinfo {max-height:200px; overflow: auto;}
+.divcalendarcontainer .divcalendarinfo ul, .divcalendarcontainer .divcalendarinfo ul li {width:100%; position:relative;list-style-type:none;margin:0px;padding:0px;}
+.divcalendarcontainer .divcalendarinfo > ul > li { margin:0 0 5px 0; padding:0px; border-bottom: none;}
+.divcalendarcontainer .divcalendarinfo > ul > li > p { font-family:'latomedium', sans-serif; font-size:13px; color:#000; min-width:80px;margin: 0px; padding: 0px; display: inline-block;}
+.divcalendarcontainer .divcalendarinfo ul > li > span { font-family:'sourcesansproregular', sans-serif; font-size:13px; color:#333;margin:0 15px 0 0;}
+.divcalendarcontainer .divcalendarinfo h3{font-family: 'latomedium', sans-serif; font-size:13px; color:#000; max-width:100%; font-weight: normal; display: inline-block;}
+
+.CalendarbcakBtn{border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'sourcesansprosemibold',sans-serif;
+    font-size: 13px;
+    padding:4px 8px;
+    position: relative;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #003f91;}
+.CalendarbcakBtn span[class^="icon-"]{padding-right: 5px; font-size: 11px;}
+
+.fc-daygrid-event {
+    white-space: nowrap !important;
+    align-items: normal !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: auto !important;
+    max-width: 100% !important;
+}
+
+@media screen and (max-width:1023px){
+    .divcalendarcontainer .divcalendarpopup {
+        left: 23px;
+        width: 250px!important;
+    }
+}
+
+@media screen and (max-width:1399px){
+    .divcalendarcontainer .divcalendarpopup {
+        top:-webkit-calc(100% - -10px); top:-moz-calc(100% - -10px); top:calc(100% - -10px); 
+        left: 0;
+        width:450px;
+    }
+}
+@media screen and (max-width:1399px){
+    .divcalendarpopup:before{
+        top: 0; left: 40px !important;  -ms-transform: rotate(135deg); -webkit-transform: rotate(135deg); transform: rotate(135deg);
+    }
+}
+
+

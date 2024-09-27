@@ -1,0 +1,125 @@
+.recurrenceEvent {
+    background: none;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 0px 15px 5px 15px;
+}
+
+.recurrenceEventLegend {
+    padding: 5px 9px;
+    margin-left: 9px;
+    margin-bottom: 0px;
+    border-bottom: none;
+    width: auto;
+    display: flex;
+}
+
+.recurrenceEventLegend div {
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+}
+
+.required {
+    color: #f03131;
+}
+
+.patternAndFrequency {
+    display: flex;
+}
+
+.frequency {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #cecece;
+    font-size: 14px;
+    font-family: 'sourcesansproregular', sans-serif;
+    color: #222;
+}
+
+.frequency div {
+    padding-bottom: 10px;
+}
+
+.frequencyRadio {
+    padding-bottom: 15px;
+    top: 2px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.pattern {
+    padding: 0px 5px 5px 5px;
+    margin-left: 5px;
+    width: 80%;
+}
+
+.pattern div span,
+.pattern span,
+.rangeRecurrence span,
+.rangeRecurrence div span {
+    margin-bottom: 10px;
+    font-family: "sourcesansproregular", sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+
+.pattern input[type="checkbox"] {
+    margin-right: 5px;
+    top: 2px;
+    position: relative;
+}
+
+
+
+.daysInput {
+    width: 59px !important;
+    border: 1px solid #cecece;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0px 5px 5px 5px;
+}
+
+.monthlydaysInput {
+    width: 75px !important;
+    border: 1px solid #cecece;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0px 5px 0px 5px;
+}
+
+.rangedaysInput {
+    width: 138px !important;
+    border: 1px solid #cecece;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0px 5px 0px 5px;
+}
+
+.daysCheckboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.daysCheckboxes div {
+    max-width: 100%;
+    width: 23%;
+    margin: 5px 0px;
+}
+
+.endSelection {
+    display: flex;
+    flex-direction: column;
+}
+
+.forminputrow .tooltip-top {
+    left: 0;
+}
+
+.forminputrow .tooltip-right {
+    left: 0;
+}

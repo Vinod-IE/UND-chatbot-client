@@ -1,0 +1,92 @@
+.container {
+    width: auto;
+}
+
+table thead th {
+    background-color: #F2F7FC !important;
+}
+
+.ka-qa .tabs .card-header,
+.ka-qa .text-end.mt-auto {
+    display: none;
+}
+
+.ka-qa .tabs .text-end.mt-auto {
+    display: block;
+}
+
+.ka-qa .customtabs-content .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Charts */
+.legendList {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    box-shadow: none !important;
+}
+
+.legendListItem {
+    display: flex !important;
+    list-style: none;
+    box-shadow: none;
+    border: none !important;
+    align-items: center;
+    width: '100%';
+}
+
+.legendListItemExists {
+    padding-top: 5px;
+    display: flex;
+}
+
+.legendListItemIcon {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.recharts-cartesian-axis-tick,
+.piechartlegend {
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+
+g.recharts-layer.recharts-cartesian-axis-tick text {
+    font-size: 10px;
+    font-family: 'sourcesansproregular', sans-serif;
+    color: #333;
+    font-weight: 500;
+}
+
+.recharts-default-tooltip ul li {
+    border: none;
+}
+
+.recharts-default-tooltip p {
+    font-family: 'sourcesansproregular', sans-serif;
+    font-size: 13px;
+    color: #333;
+    font-weight: 300;
+}
+
+
+.divhomepagecommoncards .divcommoncards .anchorupdownlink {
+    display: none;
+}
+
+.recharts-tooltip-wrapper:focus {
+    outline: none;
+}
+
+.widget-data:last-child {
+    border-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}

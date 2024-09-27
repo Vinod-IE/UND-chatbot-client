@@ -1,0 +1,78 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 183px;
+    left: 400px;
+    width: 60%;
+    height: 60%;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banner-submit-bg {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.36);
+    height: 100%;
+    top: 0;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.banner-container {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 9998;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--rb-color-1);
+    width: calc(100% - 40%);
+    min-width: 320px;
+    height: calc(100vh - 30%);
+    margin:0;
+}
+.Previewbanner-container{
+    background-color: #fff;
+    position: relative;
+    z-index: 9998;
+    top: 66%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--rb-color-1);
+    width: 87%;
+    margin: 0;
+}
+.banner-header{
+    position: relative;
+    z-index:9999;
+}
+.banner-footer{
+    position: absolute;
+    z-index:9999;
+    bottom: 0;
+}

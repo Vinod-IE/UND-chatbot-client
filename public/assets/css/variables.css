@@ -1,0 +1,285 @@
+:root {
+
+    --rb-gutter-x: 1rem;
+    --rb-gutter-y: 1rem;
+
+    /* common colors */
+    --rb-bodybg: #f5f5f6;
+    --rb-whitebg: #ffffff;
+    --rb-primary-color: #2538D5;
+    --rb-secondary-color: rgb(82, 3, 141);
+    --rb-primary-light-color: rgba(5, 115, 225, 0.1);
+    --rb-secondary-light-color: rgb(240, 198, 25, 0.1);
+    --rb-icon-primary-color: rgb(101, 119, 134);
+    --rb-button-color: #2538D5;
+
+    /* header wraper Heights */
+    --rb-sharepointtopheaderheight: 48px;
+    --rb-topmenusheight: 35px;
+    --rb-headerheight: 70px;
+    --rb-pageheaderheight: 45px;
+    --rb-footerheight: 0px;
+    --rb-wraperheight: calc(100vh - (var(--rb-headerheight) + var(--rb-footerheight)));
+    --rb-wraperheightsharepointwithoutribben: calc(100vh - (var(--rb-headerheight) + var(--rb-sharepointtopheaderheight) + var(--rb-footerheight)));
+    --rb-wraperheightsharepointtopmenuwithoutribben: calc(100vh - (var(--rb-headerheight) + var(--rb-sharepointtopheaderheight) + var(--rb-footerheight) + var(--rb-topmenusheight)));
+
+    /* sidemenus variables */
+    --rb-sidemenus-expand-width: 280px;
+    --rb-sidemenus-expand-min-width: 280px;
+    --rb-sidemenus-width: 70px;
+    --rb-sidemenus-collapse-min-width: 48px;
+    --rb-sidemenus-static-width:100px;
+    --rb-sidemenusheight: calc(100vh - var(--rb-headerheight));
+    --rb-sharepointsidemenusheight: calc(100vh - (var(--rb-headerheight) + var(--rb-sharepointtopheaderheight)));
+
+    /* background-colors */
+    --rb-bgcolor-primary: var(--rb-primary-color);
+    --rb-bgcolor-secondary: var(--rb-secondary-color);
+    --rb-bgcolor-1: #003B6F;
+    --rb-bgcolor-2: #F0F2F8;
+    --rb-bgcolor-3: #1F78C7;
+    --rb-bgcolor-4: #031624;
+    --rb-bgcolor-5: rgb(204, 204, 204);
+    --rb-bgcolor-6: #1A8002;
+    --rb-bgcolor-7: #3F5283;
+    --rb-bgcolor-9: #0573e1;
+    --rb-bgcolor-13: #144279;
+    --rb-bgcolor-14: #6e2be2;
+    --rb-bgcolor-15: rgba(204, 204, 204, 0.1);
+    --rb-bgcolor-16: #EAF5FF;
+    --rb-bgcolor-17: #36095A;
+    --rb-bgcolor-19: #063767;
+    --rb-bgcolor-20:#E7D7FF;
+    --rb-bgcolor-21:#0051A2;
+    --rb-bgcolor-22:#f3f8fc;
+    --rb-bgcolor-23:#2538d5;
+    --rb-bgcolor-24:#910000;
+    --rb-color-1: #0573E1;
+    /* ***************ADD-ONS*************** */
+    
+
+    /* font colors */
+    --rb-darktext: #383838;
+    --rb-whitetext: #ffffff;
+    --rb-danger: #dc3545;
+    --rb-titletext: #000000;
+    --rb-titletext1: #0E2982;
+    --rb-titletext2: #000000;
+    --rb-titletext3: #5E7383;
+    --rb-titletext4: #1b2452;
+    --rb-titletext5: #343840;
+    --rb-titletext6: #2538D5;
+    --rb-titletext7: #52038D;
+    --rb-titletext8: #2e9a1d;
+    --rb-titletext9: #003972;
+    --rb-titletext10: #b14601;
+    --rb-titletext12: #0B2C53;
+    --rb-titletext13: #636363;
+    --rb-titletext14: #0B2C53;
+    --rb-titletext15: #a626a4;
+    /* ***************ADD-ONS*************** */
+    --rb-titletext16: #160850;
+    --rb-titletext17: #478BB2;
+
+
+    /*icons colors*/
+    --rb-icon-excelcolor: #2B6300;
+    --rb-icon-pdfcolor: #AC391B;
+    --rb-icon-pptcolor: #910000;
+    --rb-icon-png-jpgcolor: #8e44ad;
+    --rb-icon-color: #52038D;
+
+    --rb-subtitle: #7c8087;
+    --rb-subtitle1: #657886;
+    --rb-subtitle2: #cccccc;
+    --rb-subtitle3: #757575;
+    --rb-subtitle4: #4D6174;
+    --rb-subtitle5: #657886;
+
+    --rb-linktext: var(--rb-color-1);
+    --rb-linktext1: var(--rb-color-1);
+    --rb-textcolor1: #0088FF;
+    --rb-error-color: #A80000;
+    /* custome select color*/
+    --rb-selected-option-bg: var(--rb-primary-color);
+    --rb-selected-option-color: var(--rb-whitetext);
+    /* border-colors */
+    --rb-bordercolor-primary: var(--rb-primary-color);
+    --rb-bordercolor-secondary: var(--rb-secondary-color);
+    --rb-bordercolor: rgba(0, 0, 0, 0.03);
+    --rb-bordercolor1: rgba(0, 0, 0, 0.08);
+    --rb-bordercolor2: #7c8087;
+    --rb-bordercolor3: #6DC0F0 !important;
+    --rb-bordercolor4: rgba(0, 0, 0, 0.5);
+    --rb-bordercolor5: rgba(0, 0, 0, 1);
+    --rb-bordercolor6: #d3ddeb;
+    --rb-bordercolor7: #0573E1;
+    --rb-bordercolor8: #9417CB;
+    --rb-bordercolor9: #029CB1;
+
+    --rb-lightbordercolor: rgba(255, 255, 255, 0.03);
+    --rb-lightbordercolor1: rgba(255, 255, 255, 0.08);
+    --rb-lightbordercolor3: rgba(255, 255, 255, 0.12);
+    --rb-lightbordercolor4: rgba(255, 255, 255, 0.2);
+    --rb-lightbordercolor5: rgba(255, 255, 255, 1);
+
+    /* title border colors */
+    --rb-title-border: rgba(37, 56, 213);
+    --rb-table-border-color: rgba(0, 0, 0, 0.05);
+    --rb-title-border-width: 80%;
+    --rb-title-border-max-width: 50px;
+    --rb-title-border-min-width: 40px;
+
+    /* Tabs variables */
+    --rb-tabs-border-color: var(--rb-primary-light-color);
+    --rb-tabs-border1-color: var(--rb-secondary-light-color);
+    --rb-tabs-border2-color: #bef7ff;
+    --rb-tabs-active-border-color: var(--rb-primary-color);
+    --rb-tabs-active-border1-color: var(--rb-secondary-color);
+    --rb-tabs-active-border2-color: green;
+    --rb-tabs-color: #383838;
+    --rb-tabs-active-color: #383838;
+    --rb-tabs-bg-color: rgb(121, 121, 121);
+    --rb-tabs-active-bg-color: rgba(48, 0, 161, 1);
+    --rb-tabs-content-border-color: rgba(61, 2, 2, 0.05);
+
+    /* card variables */
+    --rb-card-padding: 12px;
+    --rb-card-xs-padding: 4px;
+    --rb-card-sm-padding: 8px;
+    --rb-card-lg-padding: 16px;
+    --rb-card-border-radius: 8px;
+    --rb-card-border-width: 1px;
+
+    /* accordian variables */
+    --rb-accordion-bg-color: #E6F3FF;
+    --rb-accordion-active-bg-color: #E6F3FF;
+    --rb-accordion-color: rgba(0, 0, 0, 0.8);
+    --rb-accordion-active-color: rgba(0, 0, 0, 1);
+    --rb-accordion-border-color: #cccccc;
+    --rb-accordion-active-border-color: #3896F5;
+    --rb-accordion-content-border-color: rgba(0, 0, 0, 0.0);
+
+    /* Lists dot color Color */
+    --rb-listdotscolor1: var(--rb-primary-color);
+    --rb-listdotscolor2: var(--rb-secondary-color);
+    --rb-listdotscolor3: var(--rb-primary-light-color);
+    --rb-listdotscolor4: var(--rb-secondary-light-color);
+
+
+    /* shadows */
+    --rb-shadow: 0 0px 8px rgba(0, 0, 0, 0.13);
+    --rb-shadow1: 0 0px 8px rgba(0, 0, 0, 0.3);
+    --rb-shadow2: 0 0px 8px rgba(0, 0, 0, 0.5);
+    --rb-shadow3: 0 0px 8px rgba(0, 0, 0, 0.8);
+
+    --rb-shadow4: 0 0px 3px rgba(0, 0, 0, 0.13);
+    --rb-shadow5: 0 0px 3px rgba(0, 0, 0, 0.3);
+    --rb-shadow6: 0 0px 3px rgba(0, 0, 0, 0.5);
+    --rb-shadow7: 0 0px 3px rgba(0, 0, 0, 0.8);
+
+    --rb-shadow8: 0 0px 1px rgba(0, 0, 0, 0.13);
+    --rb-shadow9: 0 0px 1px rgba(0, 0, 0, 0.3);
+    --rb-shadow10: 0 0px 1px rgba(0, 0, 0, 0.5);
+    --rb-shadow11: 0 0px 1px rgba(0, 0, 0, 0.8);
+
+    /* heights */
+    --rb-height-100: 100px;
+    --rb-height-150: 150px;
+    --rb-height-200: 200px;
+    --rb-height-250: 250px;
+    --rb-height-300: 300px;
+    --rb-height-350: 350px;
+    --rb-height-400: 400px;
+
+    /* Marker colors */
+    --rb-markercolor: var(--rb-primary-color);
+    --rb-markercolor1: var(--rb-secondary-color);
+    --rb-markercolor2: var(--rb-bgcolor-1);
+    --rb-markercolor3: var(--rb-bgcolor-2);
+
+    /* formfields */
+    --rb-formfields-border-color: rgba(0, 0, 0, 0.1);
+    --rb-formfields-border-radius: 4px;
+    --rb-disabled: #f0f0f0;
+    --rb-readonly: #f0f0f0;
+
+
+    /* kpi colors */
+    --rb-kpicolor-1: rgba(109, 0, 193,1);
+    --rb-kpibgcolor-1: rgba(109, 0, 193, 0.17);
+    --rb-kpicolor-2: rgba(150, 118, 5, 1);
+    --rb-kpibgcolor-2: rgba(150, 118, 5, 0.17);
+    --rb-kpicolor-3:rgba(8, 79, 130, 1); 
+    --rb-kpibgcolor-3: rgba(219, 240, 255, 1);
+    --rb-kpicolor-4: rgba(175, 6, 157, 1);
+    --rb-kpibgcolor-4: rgba(175, 6, 157, 0.17);
+    --rb-kpicolor-5: rgba(99, 137, 0,1);
+    --rb-kpibgcolor-5: rgba(99, 137, 0, 0.17);
+    --rb-kpicolor-6: rgba(157, 42, 23, 1);
+    --rb-kpibgcolor-6: rgba(157, 42, 23, 0.17);
+    --rb-kpicolor-7: rgba(46, 154, 29,1);
+    --rb-kpibgcolor-7: rgba(46, 154, 29, 0.17);
+    --rb-kpicolor-8: rgba(217, 87, 65, 0.17);
+    --rb-kpibgcolor-8:  rgba(245, 234, 232, 1);
+    --rb-kpicolor-9: rgba(105, 65, 198, 1);
+    --rb-kpibgcolor-9: rgba(237, 229, 255);
+    --rb-kpicolor-10: rgba(36, 150, 9, 1);
+    --rb-kpibgcolor-10: rgba(213, 248, 222);
+    --rb-kpicolor-11: rgba(0, 87, 255, 1);
+    --rb-kpibgcolor-11: rgba(224, 235, 255);
+    --rb-kpicolor-12: rgb(27, 187,1);
+    --rb-kpibgcolor-12: rgb(213,248,222);
+
+    /* button variables */
+    --rb-btn-border-width: 1px;
+    --rb-btn-border-width-2: 2px;
+    --rb-btn-border-style: solid;
+    --rb-btn-border-style-dotted: dotted;
+    --rb-btn-border-style-dashed: dashed;
+    --rb-btn-border-color: var(--rb-primary-color);
+    --rb-btn-border-color1: var(--rb-bgcolor-4);
+    --rb-btn-radius: 4px;
+    --rb-btn-radius1: 8px;
+    --rb-btn-radius2: 12px;
+    --rb-btn-radius3: 20px;
+    --rb-btn-radius4: 50%;
+    --rb-btn-radius-none: 0px;
+    --rb-btn-hover-bg: var(--rb-primary-color);
+    --rb-btn-hover-textcolor: #fff;
+
+    /* Alearts */
+    --rb-border-width: 1px;
+    --rb-border-radius: 4px;
+    --rb-border-radius1: 8px;
+    --rb-border-radius2: 12px;
+    --rb-border-radius3: 20px;
+    --rb-bbordertn-radius4: 50%;
+    --rb-border-radius-none: 0px;
+    --rb-primary-text-emphasis: #052c65;
+    --rb-secondary-text-emphasis: #2b2f32;
+    --rb-success-text-emphasis: #0a3622;
+    --rb-info-text-emphasis: #055160;
+    --rb-warning-text-emphasis: #664d03;
+    --rb-danger-text-emphasis: #58151c;
+    --rb-light-text-emphasis: #495057;
+    --rb-dark-text-emphasis: #495057;
+    --rb-primary-bg-subtle: #cfe2ff;
+    --rb-secondary-bg-subtle: #e2e3e5;
+    --rb-success-bg-subtle: #d1e7dd;
+    --rb-info-bg-subtle: #cff4fc;
+    --rb-warning-bg-subtle: #fff3cd;
+    --rb-danger-bg-subtle: #f8d7da;
+    --rb-light-bg-subtle: #fcfcfd;
+    --rb-dark-bg-subtle: #ced4da;
+    --rb-primary-border-subtle: #9ec5fe;
+    --rb-secondary-border-subtle: #c4c8cb;
+    --rb-success-border-subtle: #a3cfbb;
+    --rb-info-border-subtle: #9eeaf9;
+    --rb-warning-border-subtle: #ffe69c;
+    --rb-danger-border-subtle: #f1aeb5;
+    --rb-light-border-subtle: #e9ecef;
+    --rb-dark-border-subtle: #adb5bd;
+    --rb-white-rgb: 255, 255, 255;
+    --rb-black-rgb: 0, 0, 0;
+}

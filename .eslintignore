@@ -1,0 +1,11 @@
+**/*.js
+**/*.mjs
+scripts/*
+public/*
+publish/*
+node_modules/*
+doc/*
+config/*
+build/*
+.yalc/*
+.vscode/*

@@ -1,0 +1,259 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    background-color: var(--rb-whitebg);
+}
+
+table.table-bordered,
+table.table-bordered td,
+table.table-bordered th {
+    border-collapse: collapse;
+    border: solid 1px var(--rb-table-border-color) !important;
+}
+
+table.table-borderless,
+table.table-borderless td,
+table.table-borderless th {
+    border-collapse: collapse;
+    border: solid 0px #d9d9d9 !important;
+}
+
+table.table-sm th,
+table.table-sm td {
+    padding: 4px 8px;
+}
+
+table thead th{
+    text-wrap: nowrap;
+    font-weight: 600;
+}
+
+table th,
+table td {
+    padding: 8px 8px;
+    text-align: left;
+}
+
+table.table-lg th,
+table.table-lg td {
+    padding: 12px 8px;
+}
+
+table.table-dis tr:nth-child(even) td,
+table.table-dis tr:nth-child(even) th {
+    border-bottom: solid 1px #e7e7e7 !important;
+    padding-top: 0px;
+}
+
+.sticky-top thead tr th:first-child,
+.sticky-top tr th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--rb-whitebg);
+}
+
+.sticky-top.first-column tbody tr th:first-child {
+    left: 0;
+    z-index: 19;
+}
+
+.sticky-top.first-column thead tr th:first-child {
+    left: 0;
+    z-index: 20;
+}
+
+.sticky-top.second-column tbody tr th:nth-child(2) {
+    left: -5px;
+    z-index: 19;
+}
+
+.sticky-top.second-column thead tr th:nth-child(2) {
+    left: -5px;
+    z-index: 21;
+}
+
+.sticky-top.first-2column tbody tr th:first-child {
+    left: 0;
+    width: 30px;
+    z-index: 19;
+}
+
+.sticky-top.first-2column thead tr th:first-child {
+    left: 0;
+    width: 30px;
+    z-index: 20;
+}
+
+.sticky-top.first-2column tbody tr th:nth-child(2) {
+    left: 30px;
+    z-index: 19;
+}
+
+.sticky-top.first-2column thead tr th:nth-child(2) {
+    left: 30px;
+    z-index: 20;
+}
+
+.sticky-top.last-column tbody tr th:last-child {
+    right: -5px;
+    z-index: 19;
+}
+
+.sticky-top.last-column thead tr th:last-child {
+    right: -5px;
+    z-index: 20;
+}
+
+table.table-rowgap {
+    border-spacing: 0 8px;
+    border-collapse: separate;
+}
+
+table.table-rowgap tr {
+    border-radius: 8px;
+}
+
+table.table-rowgap tbody tr {
+    border: solid 0px #000;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+}
+
+table.table-rowgap.table-dis tr:nth-child(even):before {
+    width: 100%;
+    content: "";
+    background-color: var(--rb-whitebg);
+    position: absolute;
+    left: 0px;
+    height: 9px;
+    top: -8px;
+    box-shadow: 0 8px 0px 0px white, 0 -8px 0px 0px white, 8px 0 8px -4px rgba(31, 73, 125, 0.6), -8px 0 8px -4px rgba(31, 73, 125, 0.6);
+}
+
+table.table-rowgap.table-dis tr:nth-child(even) td,
+table.table-rowgap.table-dis tr:nth-child(even) th {
+    border-bottom: solid 0px #e7e7e7 !important;
+}
+
+.sticky-top.table-rowgap.first-column tbody tr th:first-child {
+    left: -8px;
+    z-index: 19;
+}
+
+.sticky-top.table-rowgap.first-column thead tr th:first-child {
+    left: -8px;
+    z-index: 20;
+}
+
+.sticky-top.table-rowgap.second-column tbody tr th:nth-child(2) {
+    left: -8px;
+    z-index: 19;
+}
+
+.sticky-top.table-rowgap.second-column thead tr th:nth-child(2) {
+    left: -8px;
+    z-index: 20;
+}
+
+.sticky-top.table-rowgap.first-2column tbody tr th:first-child {
+    left: -8px;
+    width: 30px;
+    z-index: 19;
+}
+
+.sticky-top.table-rowgap.first-2column thead tr th:first-child {
+    left: -8px;
+    width: 30px;
+    z-index: 20;
+}
+
+.sticky-top.table-rowgap.first-2column tbody tr th:nth-child(2) {
+    left: 30px;
+    z-index: 19;
+}
+
+.sticky-top.table-rowgap.first-2column thead tr th:nth-child(2) {
+    left: 30px;
+    z-index: 20;
+}
+
+.sticky-top.table-rowgap.last-column tbody tr th:last-child {
+    right: -8px;
+    z-index: 19;
+}
+
+.sticky-top.table-rowgap.last-column thead tr th:last-child {
+    right: -8px;
+    z-index: 20;
+}
+
+.sticky-top.table-rowgap tbody tr th.checkbox,
+.sticky-top.table-rowgap thead tr th.checkbox {
+    width: 30px;
+}
+
+.sticky-top thead tr th {
+    z-index: 20;
+}
+
+table th input[type="checkbox"],
+table td input[type="checkbox"] {
+    height: auto;
+}
+
+.accordion-tableview {
+    display: none;
+}
+
+.accordion-tableview.active {
+    display: table;
+}
+
+table.table-rowgap2.table-dis tbody tr:nth-child(2n):before,
+table.table-rowgap2.table-dis tbody tr:nth-child(3n):before {
+    width: 100%;
+    content: "";
+    background-color: var(--rb-whitebg);
+    position: absolute;
+    left: 0px;
+    height: 9px;
+    top: -8px;
+    box-shadow: 0 8px 0px 0px white, 0 -8px 0px 0px white, 8px 0 8px -4px rgba(31, 73, 125, 0.6), -8px 0 8px -4px rgba(31, 73, 125, 0.6);
+}
+
+/* table.table-rowgap2.table-dis tr:nth-child(2n) td, table.table-rowgap.table-dis tr:nth-child(even) th{border-bottom: solid 0px #e7e7e7 !important;} */
+
+.sticky-top thead tr th:first-child,
+.sticky-top tr th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--rb-whitebg);
+}
+
+table.sticky-top {
+    z-index: 0;
+}
+
+.listviewtable {
+    position: relative;
+    height: calc(100vh - 201px);
+
+}
+.border-top-left{
+    border-top-left-radius: 10px;
+}
+.border-top-right{
+    border-top-right-radius: 10px;
+}
+.border-bottom-right{
+    border-bottom-right-radius: 10px;
+}
+.border-bottom-left{
+    border-bottom-left-radius: 10px;
+}

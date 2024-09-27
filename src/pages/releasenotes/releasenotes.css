@@ -1,0 +1,16 @@
+.releasetitle{
+    padding-left: 28px;
+}
+.releasecontent{
+    padding-left: 26px;
+    margin-left: 16px;
+}
+.release ol {
+padding-left:16px
+}
+.release ul {
+    padding-left:16px
+    }
+    .dots ul{
+        color:#0573e1;
+    }

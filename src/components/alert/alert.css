@@ -1,0 +1,21 @@
+.alertsmain{
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    margin: auto;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    left: 50%;
+    z-index: 9999;
+    box-shadow: 5px 5px 15px 1px rgba(0,0,0,.2);
+}
+.alertoverly{position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    background: rgba(0,0,0,0.4);
+    left: 0px;
+    z-index: 9998;
+}

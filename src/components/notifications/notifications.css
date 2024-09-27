@@ -1,0 +1,39 @@
+.notification sup {
+    margin-left: -5px;
+    margin-top: -15px;
+    line-height: 15px;
+}
+
+.notification .popup .customtabs-content ul {
+    margin: 0px 0px 0px 18px;
+}
+
+.notification .popup .customtabs-content li {
+    margin: 0px 0px 8px 0px;
+}
+
+.notification .popup .customtabs-list li:first-child::marker {
+    font-size: 0;
+}
+
+.notification .popup .customtabs-list li::marker {
+    letter-spacing: 2px;
+}
+
+.notification .popup li::marker {
+    font-size: 50px;
+    line-height: 1px;
+    content: ".";
+    margin-left: 5px;
+    letter-spacing: 8px;
+}
+
+.notification .popup [notification-code="1"]::marker,
+.notification .popup .customtabs-list li:nth-child(2)::marker {
+    color: #F2A81C;
+}
+
+.notification .popup [notification-code="2"]::marker,
+.notification .popup .customtabs-list li:nth-child(3)::marker {
+    color: #10C4A2;
+}

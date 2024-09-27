@@ -1,0 +1,83 @@
+.accordions {
+    margin: 0px;
+    padding: 0px;
+}
+
+.accordions div.accordion-item {
+    margin-bottom: 8px;
+}
+
+.accordions div.accordion-item a {
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+}
+
+.accordions div.accordion-item a:hover {
+    text-decoration: none;
+}
+
+.accordion-content {
+    padding: 8px;
+}
+
+.accordions.accordion-bordered div.accordion-item {
+    border: solid 1px var(--rb-accordion-border-color)
+}
+
+.accordions.accordion-bordered div.accordion-item.active {
+    border: solid 1px var(--rb-accordion-active-border-color)
+}
+
+.accordions div.accordion-item>[class^="accordion-content border-top"] {
+    border-top-color: transparent !important;
+}
+
+.accordions div.accordion-item.active>[class^="accordion-content border-top"] {
+    border-top-color: var(--rb-accordion-active-border-color) !important;
+}
+
+.accordions div.accordion-item .accordion-content {
+    border-top: solid 1px var(--rb-accordion-content-border-color);
+    height: 0;
+    padding: 0px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.accordions div.accordion-item a.accordion-head {
+    color: var(--rb-accordion-color);
+    /* justify-content: space-between; */
+}
+
+.accordions div.accordion-item a.accordion-head:hover,
+.accordions div.accordion-item.active a.accordion-head {
+    color: var(--rb-accordion-active-color)
+}
+
+.accordions.colored div.accordion-item a.accordion-head {
+    background-color: var(--rb-accordion-bg-color)
+}
+
+.accordions.colored div.accordion-item a.accordion-head:hover,
+.accordions.colored div.accordion-item.active a.accordion-head {
+    background-color: var(--rb-accordion-active-bg-color)
+}
+
+ul.accordions.left-side-icon a {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+ul.accordions.left-side-icon a span {
+    padding-right: 8px;
+}
+
+.accordions div.accordion-item.active>.accordion-content {
+    height: auto;
+    padding: 8px;
+    overflow: hidden;
+    transition: height 0.2s ease;
+}

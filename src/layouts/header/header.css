@@ -1,0 +1,101 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 9998;
+    background-color: #fff;
+    width:100%;
+    height: var(--rb-headerheight);
+    background-image: linear-gradient(to right, #47095F, #160850);
+}
+
+.side-menus .menus {
+    display: var(--menus-display) !important;
+}
+
+.customer-header{
+    position: fixed;
+    top:0;
+    z-index:9998;
+    background-color: #fff;
+    width:100%;
+    height: var(--rb-headerheight);
+}
+
+.Menu-Options{
+    width: 70px !important;
+}
+
+.side-menus .menuexpand~ .content-wrapper .header, .side-menus .menus~ .content-wrapper .header {
+    margin-left: 0px;
+    width: calc(100% - var(--rb-sidemenus-width)) !important;
+}
+
+.pageheader {
+    max-width: 1920px;
+    width: calc(100% - 10px);
+    margin: auto;
+}
+
+@media (min-width:768px) {
+.pageheader {
+    width: calc(100% - 30px);
+}
+}
+@media (min-width:1024px) {
+    .pageheader {
+        width: calc(100% - 120px);
+    }
+.side-menus .menuexpand~ .content-wrapper .header{
+    width: calc(100% - var(--rb-sidemenus-expand-width)) !important;
+    transition: all 0.2s !important;
+    margin-left: auto !important;
+}
+.side-menus .menus~ .content-wrapper .header{
+    width: calc(100% - var(--rb-sidemenus-width)) !important;
+    transition: all 0.2s !important;
+    margin-left: auto !important;
+}
+}
+
+.header .container {
+    z-index: 1024;
+    position: relative;
+}
+
+.workFlow {
+    max-width: calc(100% - 280px);
+}
+
+
+.header .popup {
+    width: 370px;
+}
+
+.side-menus .sidebar-logo.whitebg {
+    display: flex;
+}
+.mainWrapper .header {
+    display: block;
+    width: 100%;
+    min-height: var(--rb-headerheight);
+}
+.side-menus .mainWrapper .header {
+    display: block;
+    min-height: var(--rb-headerheight);
+}
+.pageheader{
+    z-index: 1031;
+    background:linear-gradient(90deg, #f5e5f9, #e1e7ea) !important;
+    
+}
+.side-menus .mainWrapper .header .container {
+    min-height: var(--rb-headerheight);
+    max-width: 100%;
+}
+@media (max-width:480px) {
+.header .popup {
+    left: auto !important;
+    right: 4px;
+    max-width: calc(100% - 50px);
+}
+}

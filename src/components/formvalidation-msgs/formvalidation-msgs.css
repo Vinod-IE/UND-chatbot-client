@@ -1,0 +1,27 @@
+.validation-msgs ul {
+    margin: 8px 8px 8px 25px;
+}
+
+.validation-msgs li {
+    padding: 4px 0px;
+}
+
+.validation-msgs li a {
+    text-decoration: underline;
+    color: var(--rb-textcolor1);
+}
+
+.validation-msgs h2 {
+    text-decoration: underline;
+    left: -7px;
+}
+
+.anchorclosebutton {
+    border: none;
+    right: 5px;
+    line-height: 1px;
+    min-width: auto;
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+}

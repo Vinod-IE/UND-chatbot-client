@@ -1,0 +1,114 @@
+.workflow .workflow-dots {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 4px solid #A700FF;
+    padding: 4px;
+}
+.workflow-title1{
+    color: #fff;
+    font-size: 11px;
+    font-family: 'segoe UI', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.workflow li {
+    position: relative;
+}
+
+.workflow li:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 8px;
+    left: 0%;
+    z-index: -1;
+}
+.workflow li:first-child:after {
+    left: 50%;
+}
+.workflow li:last-child:after {
+    left: -50%;
+}
+
+.workflow-icon {
+    display: none;
+}
+.btn-WorkFlow{
+    display: none;
+}
+
+@media (max-width:1400px) {
+    .workflow-title1{
+        color: #000;
+        text-align: left;
+    }
+    .workflow-icon {
+        display: block;
+    }
+    .btn-WorkFlow{
+        display: inline-flex;
+    }
+    .workflow-collapsed~a.workflow-icon:after {
+        display: none;
+    }
+
+    a.workflow-icon:after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg);
+        background-color: #fff;
+        box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.08);
+        position: absolute;
+        bottom: -14px;
+        right: calc(50% - 5px);
+    }
+
+    .workflow,.workflow:hover {
+        position: absolute;
+        top: 46px;
+        right: 165px;
+        background-color: #fff;
+        padding: 0px 15px;
+        min-width: 150px;
+        flex-direction: column;
+        border-radius: 8px;
+        height: auto;
+        max-height: calc(100vh - 60px);
+        overflow: auto;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s;
+        z-index: 0;
+    }
+
+    .workflow li {
+        position: relative;
+        flex-direction: row !important;
+        gap: 8px;
+        padding: 1rem 0px !important;
+        align-items: start !important;
+    }
+
+    .workflow li:after {
+        height: 100%;
+        width: 1px;
+        left: 8px;
+        top: 50%;
+    }
+
+    .workflow li:first-child:after {
+        left: 8px;
+    }
+
+    .workflow-collapsed {
+        width: 150px;
+        min-width: 150px;
+        right: -100%;
+        overflow: hidden;
+        transition: all 0.2s;
+        display: none !important;
+    }
+}

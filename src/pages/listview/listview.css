@@ -1,0 +1,3 @@
+.listview-table{
+    max-height: calc(100vh - (var(--rb-pageheaderheight) + 165px));
+}
